@@ -53,3 +53,24 @@ for (int i = 0; i < 4; i++)
 }
 Console.WriteLine("Конечный массив: [" + string.Join(", ", array) + "]");
 */
+/*
+int [] newArray = new int [] {5, 3, 7, 4, 6};
+Console.WriteLine("Начальный массив: [" + string.Join(", ", newArray) + "]");
+Console.WriteLine();
+
+int k = 3;
+int temp;
+
+for (int i = k - 1; i < newArray.Length; i++)
+{
+    for (int j = 0; j < newArray.Length; j++)
+    {
+        temp = newArray[j];
+        newArray[j] = newArray[i];
+        newArray[i] = temp;
+    }
+    
+}
+
+Console.WriteLine("Конечный массив: [" + string.Join(", ", newArray) + "]");
+*/
